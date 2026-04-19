@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+<html lang="ps">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Library</title>
+  <link rel="stylesheet" href="homepageStyle.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <button class="logo"><a href="/login.html">ننوتل</a></button>
+  <ul>
+    <li>اصلي پاڼه</li>
+    <li>ریاضي څانګه</li>
+    <li>بیولوژي څانګه</li>
+    <li>تاریخ څانګه</li>
+    <li>کیمیا څانګه</li>
+    <li>زمونږ په اړه</li>
+  </ul>
+</nav>
+<!----------------------------------- end the nav bar----------------------------------- -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>ښوني او روزني لپاره معیاري آنلاین کتابتون</h1>
+    <p>د علمي اسنادو، مونوګرافونو او درسي کتابونو مدیریت او لاسرسي لپاره یو پرمختللی ډیجیټلي سیستم</p>
+    <div class="search-box">
+      <input type="text" placeholder="کتاب یا موضوع ولټوئ...">
+      <button>🔍 لټون</button>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>📘 کتابونه</h3>
+        <p>درسي کتابونه په آسانۍ سره ترلاسه کړئ</p>
+      </div>
+
+      <div class="card">
+        <h3>📄 مونوګراف</h3>
+        <p>علمي څیړنیز کارونه آنلاین موجود دي</p>
+      </div>
+
+      <div class="card">
+        <h3>⚡ چټک سیستم</h3>
+        <p>په څو ثانیو کې معلومات ترلاسه کړئ</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!------------------------------End the hero section-----------------------------  -->
+<!-- ===== About Section ===== -->
+<section class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>زموږ د کتابتون په اړه</h2>
+      <p>
+        زموږ آنلاین کتابتون یو عصري ډیجیټلي سیستم دی چې د زده کوونکو لپاره جوړ شوی دی.  
+        له دې لارې زده کوونکي کولای شي درسي کتابونه، مونوګرافونه او علمي اسناد په آسانۍ او چټکۍ سره ترلاسه کړي.  
+        دا سیستم د زده کړې بهیر لا ساده، منظم او مؤثر کوي.
+      </p>
+      <button>نور معلومات</button>
+    </div>
+
+    <div class="about-image">
+      <div class="image-box">
+        <img src="/style/picture/project pic2.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------------------End the About SEction------------------------ -->
+<!-- ===== Categorie Section ===== -->
+<section class="categories">
+  <h2>مشهورې څانګې</h2>
+
+  <div class="category-cards">
+    <div class="category-card">📘 ریاضي</div>
+    <div class="category-card">🧪 کیمیا</div>
+    <div class="category-card">🌱 بیولوژي</div>
+    <div class="category-card">📜 تاریخ</div>
+  </div>
+</section>
+<!------------------------------------End the categories Section------------------------------  -->
+<!-- -----------footer -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>زموږ کتابتون</h3>
+      <p>
+        یو عصري ډیجیټلي کتابتون چې د زده کوونکو لپاره علمي منابع په آسانۍ سره برابروي.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h3>لینکونه</h3>
+      <ul>
+        <li>اصلي پاڼه</li>
+        <li>زمونږ په اړه</li>
+        <li>شیخ زاید پوهنتون</li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>تماس</h3>
+      <p>📍 افغانستان</p>
+      <p>📧 Najibkatawazai6@gmail.com</p>
+      <p>📞 +93 790011181</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+        <p>ټول حقوق خوندي دي | ډیجیټل کتابتون</p>
+  </div>
+
+</footer>
+<!---------------------------ENd the footer section--------------------------  -->
+
+<script>
+window.addEventListener("scroll", function(){
+  document.querySelector(".navbar").classList.toggle("scrolled", window.scrollY > 50);
+});
+</script>
+
+</body>
+</html>
